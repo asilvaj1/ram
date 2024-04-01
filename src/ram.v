@@ -1,4 +1,4 @@
-module ram #(parameter addr_width = 6, parameter data_width = 6)
+module ram #(parameter addr_width = 4, parameter data_width = 4)
  (
  	input clk, we,
   	input [addr_width - 1:0] addr,
