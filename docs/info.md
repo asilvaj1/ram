@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-ok
+It is a 4 bit RAM
 
 ## How to test
 
-ok  
+It is tested with 4 inputs, the clock, the write enable input and the 4-bit input data, the output is 4 bits as well.  
 
 ## External hardware
 
-ok
+The chip may need a Microcontroller, Raspberry, Arduino or FPGA for data inputs and memory addresses or 8 switches can be placed for data inputs and memory addresses.
