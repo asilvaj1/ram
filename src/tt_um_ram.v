@@ -16,7 +16,7 @@ module tt_um_ram (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-    ram #(.addr_width(4), .data_width(4)) r1 (.clk(clk), .we(uio_in[0]), .addr(ui_in[3:0]), .data_in(ui_in[7:4]), .data_out(uo_out[3:0]));
+    ram #(.addr_width(8), .data_width(8)) r1 (.clk(clk), .we(uio_in[0]), .addr(ui_in[3:0]), .data_in(ui_in[7:4]), .data_out(uo_out[3:0]));
 
     assign uio_oe = 8'b11111110;
     assign uio_out[7:0] = 8'b00000000;
