@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-It is a 4 bit RAM. This example describes a 4-bit x 8-bit single-port RAM design with common read and write addresses in Verilog HDL. Synthesis tools can detect single-port RAM layouts in HDL code and automatically infer altsyncram or altdpram megafunctions, depending on the architecture of the target device.
+It is a 4 bit RAM. This example describes a 4-bit x 32-bit single-port RAM design with common read and write addresses in Verilog HDL. Synthesis tools can detect single-port RAM layouts in HDL code and automatically infer altsyncram or altdpram megafunctions, depending on the architecture of the target device.
 
 ## How to test
 
