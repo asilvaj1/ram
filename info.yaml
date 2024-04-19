@@ -35,20 +35,20 @@ pinout:
   uo[1]: "Memory output data [1]"
   uo[2]: "Memory output data [2]"
   uo[3]: "Memory output data [3]"
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[4]: "Un used"
+  uo[5]: "Un used"
+  uo[6]: "Un used"
+  uo[7]: "Un used"
 
   # Bidirectional pins
   uio[0]: "RAM write enable input"
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[1]: "Un used"
+  uio[2]: "Un used"
+  uio[3]: "Un used"
+  uio[4]: "Un used"
+  uio[5]: "Un used"
+  uio[6]: "Un used"
+  uio[7]: "Un used"
 
 # Do not change!
 yaml_version: 6
