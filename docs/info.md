@@ -16,7 +16,9 @@ It is a 4 bit RAM. This example describes a 4-bit x 8-bit single-port RAM design
 It is tested with 4 inputs, the clock, the write enable input and the 4-bit input data, the output is 4 bits as well.  
 
   Inputs: ui[3:0] Memory entry address and ui[7:4] Memory input data
+  
   Outputs: uo[3:0] Memory output data
+  
   Bidirectional pins: uio[0]: RAM write enable input
 
 ## External hardware
