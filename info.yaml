@@ -3,7 +3,7 @@ project:
   title:        "4 bits RAM"      # Project title
   author:       "Alejandro Silva Juarez"      # Your name
   discord:      "Asilva"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Is a Memory RAM (4 bits)"      # One line description of what your project does
+  description:  "It is a 4 bit RAM. This example describes a 4-bit x 8-bit single-port RAM design with common read and write addresses in Verilog HDL. Synthesis tools can detect single-port RAM layouts in HDL code and automatically infer altsyncram or altdpram megafunctions, depending on the architecture of the target device."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
